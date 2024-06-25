@@ -1,10 +1,6 @@
-function Index() {
-  console.log("I am here!")
-  return (
-    <>
-      {/* ADD YOUR CODE HERE! */}
-    </>
-  );
-}
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { LineChart, BarChart, PieChart } from "lucide-react"
 
-export default Index;
+function Index() {
+  return (
