@@ -51,21 +51,21 @@ function SharedLayout({ children }) {
                 Home
               </a>
               <a
-                href="#"
+                href="/sales"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <ShoppingCart className="h-4 w-4" />
                 Sales
               </a>
               <a
-                href="#"
+                href="/operations"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <Package className="h-4 w-4" />
                 Operations
               </a>
               <a
-                href="#"
+                href="/marketing"
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
               >
                 <Users className="h-4 w-4" />
